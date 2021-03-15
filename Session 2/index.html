@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <script>
+        {
+        console.log('Var để khai báo biến, const để khai báo hằng');
+        console.log('Khác nhau ở phạm vị sử dụng');
+        console.log('let có thể thay đổi còn const thì không');
+        }
+        {
+            console.log('Là kiểu dữ liệu chỉ có 2 giá trị đúng hoặc sai');
+            console.log('Trả về giá trị đúng hoặc sai');
+
+        }
+        {
+            for(let i=0;i<8;i++){
+                console.log(i);
+            }
+            let n = prompt('Enter a number');
+            for(let i=0;i<=n;i++){
+                console.log(i);
+             }
+            n = prompt('Enter a number');
+            for(let i=3;i<=n;i++){
+                console.log(i); 
+            }
+            let c = prompt('Enter a number');
+            n = prompt('Enter a number');
+            for(let i=c;i<=n;i++){
+                console.log(i);
+            }
+        {  
+             c = Number(prompt('Enter a number'));
+             n = Number(prompt('Enter a number'));
+            for(let i=c; i<=n;i=i+3){
+                console.log(i);
+            }
+        }
+            c = Number(prompt('Enter a number'));
+            n = Number(prompt('Enter a number'));
+            let s = Number(prompt('Enter a number'));
+            for(let i=c;i<=n;i+=s){
+                console.log(i);
+            }
+        }
+        {
+            let sum = 1;
+            n = Number(prompt('Enter a number'));
+            for(let i=1;i<=n;i++){
+                sum*=i;
+            }
+            console.log('The factorial of ' + n + ' is ' + sum);
+        }
+        {
+            let a = prompt('How old are you?');
+            if(a<=14){
+                alert('You are not old enough to view this content');
+            }
+            else {
+                alert('Enjoy!');
+            }
+
+        }
+        {
+            let d = prompt('Enter a number');
+            if(d<=5){
+                alert('Lower half of 9');
+            }
+            else {
+                alert('Higher half of 9');
+            }
+        }
+        {
+            let e = prompt('Enter a number');
+            n = prompt('Enter a number');
+            if(e <= n/2){
+                alert(e + 'is the lower half of' + n);
+            }
+            else {
+                alert(e + 'is the higher half of' + n);
+            }
+        }
+        {
+            let b = prompt('Enter a number');
+            if(b%2==0){
+                alert(b +'is even number');
+            }
+            else {
+                alert(b + 'is odd number');
+            }
+        }
+        {
+            let m = prompt('Enter your weight in kg');
+            let o = prompt('Enter your height in cm');
+            o = o/100;
+            let BMI = m/(o*o);
+            alert('Your BMI is ' + BMI);
+            if(BMI<16){
+                alert('Severely Underweight');
+            }
+            else if(BMI<18.5){
+                alert('Underweight');
+            }
+            else if(BMI<25){
+                alert('Normal');
+            }
+            else if(BMI<30){
+                    alert('Overweight');
+            }
+            else {
+                alert('Obese');
+            }
+
+        }
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
