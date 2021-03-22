@@ -99,48 +99,106 @@
 
     }
 //Ex8.1:
-    let sheepSizes = [5,7,300,90,24,50,75];
-    console.log('Im hung and here are my sheep sizes: ');
-    console.log(sheepSizes.join(' '));
-    console.log('Now my biggest sheep has size ' + Math.max.apply(null,sheepSizes)+ ', let shave it');
-    console.log('After shearing, here is my flock');
-    sheepSizes[sheepSizes.indexOf(Math.max.apply(null,sheepSizes))] = 8;
-    console.log(sheepSizes.join(' '));
-    {   
-    let month = 1;
-    for(let i = month;i<=3;i++){
-        if(i !=3 ){
-        console.log('MONTH '+ i);
-        console.log('One month has passed, my sheeps have grown, here are their sizes');
-        for(let i in sheepSizes){
-            sheepSizes[i]+=50;
-        }
-        console.log(sheepSizes.join(' '));
-        console.log('Now my biggest sheep has size ' + Math.max.apply(null,sheepSizes)+ ', let shave it');
-        sheepSizes[sheepSizes.indexOf(Math.max.apply(null,sheepSizes))] = 8;
-        console.log('After shearing, here is my flock');
-        console.log(sheepSizes.join(' '));    
-        }
-    else {
-        console.log('MONTH '+ i);
-        console.log('One month has passed, my sheeps have grown, here are their sizes');
-        for(let i in sheepSizes){
-            sheepSizes[i]+=50;
-        }
-        console.log(sheepSizes.join(' '));
+    // let sheepSizes = [5,7,300,90,24,50,75];
+    // console.log('Im hung and here are my sheep sizes: ');
+    // console.log(sheepSizes.join(' '));
+    // console.log('Now my biggest sheep has size ' + Math.max.apply(null,sheepSizes)+ ', let shave it');
+    // console.log('After shearing, here is my flock');
+    // sheepSizes[sheepSizes.indexOf(Math.max.apply(null,sheepSizes))] = 8;
+    // console.log(sheepSizes.join(' '));
+    // {   
+    // let month = 1;
+    // for(let i = month;i<=3;i++){
+    //     if(i !=3 ){
+    //     console.log('MONTH '+ i);
+    //     console.log('One month has passed, my sheeps have grown, here are their sizes');
+    //     for(let i in sheepSizes){
+    //         sheepSizes[i]+=50;
+    //     }
+    //     console.log(sheepSizes.join(' '));
+    //     console.log('Now my biggest sheep has size ' + Math.max.apply(null,sheepSizes)+ ', let shave it');
+    //     sheepSizes[sheepSizes.indexOf(Math.max.apply(null,sheepSizes))] = 8;
+    //     console.log('After shearing, here is my flock');
+    //     console.log(sheepSizes.join(' '));    
+    //     }
+    // else {
+    //     console.log('MONTH '+ i);
+    //     console.log('One month has passed, my sheeps have grown, here are their sizes');
+    //     for(let i in sheepSizes){
+    //         sheepSizes[i]+=50;
+    //     }
+    //     console.log(sheepSizes.join(' '));
 
-    }
-    }
-    let sum = 0;
-    for(let i in sheepSizes){
-        sum+=sheepSizes[i];
-    }
-    console.log('My flock has size in total: '+ sum);
-    console.log('I would get ' + sum + ` * 2$ = `+ sum*2);
-    }   
-    {
+    // }
+    // }
+    // let sum = 0;
+    // for(let i in sheepSizes){
+    //     sum+=sheepSizes[i];
+    // }
+    // console.log('My flock has size in total: '+ sum);
+    // console.log('I would get ' + sum + ` * 2$ = `+ sum*2);
+    // }   
+    // {
         
-    }
+    // }
+//Bai tap Video : 
+//Ex1 : 
+{
+//     let moviesName = ['Me before you', 'The Avengers','Peaky Blinder'];
+//     moviesName.push('Money heist');
+//     // let i = prompt('Enter a number');
+//     // console.log(moviesName[i]);
+//     // let moviesTittle = prompt('Enter a movie tittle');
+//     // moviesName[0] = moviesTittle;
+//     // moviesName[i] = moviesTittle;
+//     // let delPosition = Number(prompt('Enter the position of movie you want to delete'));
+//     // moviesName.splice(delPosition-1,1);
+
+//     // let delQuality = Number(prompt('Enter a quality of number you want to delete'));
+//     // let startPosition = Number(prompt('Enter a star number'));
+//     // moviesName.splice(startPosition-1,delQuality);}
+    
+//         //Read all:
+// //     console.log(moviesName);
+// //     for(let i = 0;i<=moviesName.length/2;i++){
+// //         console.log(moviesName(i));
+// //     }
+// //     for(let i =0;i<moviesName.length;i++){
+// //         console.log(`${Number(i)+1}. ${moviesName[i]}`);
+// //     }
+   
+//     for(let i in moviesName){
+//         moviesName[i] = moviesName[i].toLowerCase(); 
+//     }
+//     console.log(moviesName);
+}
+{
+    //ex2:
+    // let yourName = prompt('Enter your name');
+    // if(yourName.length>15){
+    //     alert('Your username is too long');
+    // }
+    // else {
+    //     alert('Good username');
+    // }
+}
+{
+    //ex3:
+    
+    // do {
+    // let quickQuizz = prompt('How many legs does a spider have?\n1.None\n2.4 legs\n3.8 legs\n4.12 legs');
+    // if(quickQuizz == 1 || quickQuizz == 2 ||quickQuizz == 4 ){
+    //     alert('Haha wrong answer, try Again?');
+    // }
+    // else if(quickQuizz == 3 ){
+    //     alert('Congrats, your answer is right');
+    // }
+    // else {
+    //     alert('This is not an answer for this quizz');
+    // }
+    // }   
+    // while(true);
+}
 
     
      
