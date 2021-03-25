@@ -869,7 +869,7 @@
 //                 0.197273371406292
 //             ],
 //             isShowLogoInSearchResult55: true,
-//             priorityOrder66: 1570590222,
+//             priorityOrder66: 1570590222, 
 //             locations: [
 //                 'Ho Chi Minh'
 //             ],
@@ -1084,5 +1084,8 @@
 //         let pos3 = Number(prompt('Enter a position'));
 //         frontEndDeveloper.splice(pos3-1,1);
 //     }
+        // else {
+        // alert('This is not a command');
+        // }
 // console.log(frontEndDeveloper);
 
