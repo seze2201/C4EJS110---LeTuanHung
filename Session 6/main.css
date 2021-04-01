@@ -1,0 +1,27 @@
+p {
+    color:red;
+    justify-content: center;
+}
+.background {
+    background-color: #00FF00;
+}
+.fontsize{
+    font-size: 24px;
+}
+.div{
+    font-size: 3em;
+    background: wheat
+}
+#div2{
+    color:blue;
+}
+[target="_blank"] {
+    color:yellow;
+}
+ul li {
+   font-weight: bold; 
+}
+.item :first-child{
+    font-size: 50px;
+    color:red;
+}
