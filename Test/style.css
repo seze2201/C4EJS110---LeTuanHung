@@ -1,0 +1,20 @@
+.content {
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    text-align: center;
+}
+h1 {
+    background-color: red;
+    text-align: center;
+    color:white;
+}
+button {
+    background-color: seagreen;
+}
+@media only screen and (max-width: 736px){
+    .content{
+        width: 400px;
+        height: 200px;
+    }
+}
